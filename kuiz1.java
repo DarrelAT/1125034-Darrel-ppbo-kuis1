@@ -108,6 +108,20 @@ class SmartTV extends SmartDevice {
     }
     */
 
+       /*
+    @Override
+    public String switchable(status){
+        return status;
+    }
+     */
+
+    /*
+    @Override
+    public String lockable(status){
+    return status;
+    }
+     */
+
 }
 
 class SmartSpeaker extends SmartDevice {
@@ -126,6 +140,20 @@ class SmartSpeaker extends SmartDevice {
     }
     */
 
+    /*
+    @Override
+    public String switchable(status){
+        return status;
+    }
+     */
+
+    /*
+    @Override
+    public String lockable(status){
+    return status;
+    }
+     */
+
 }
 
 class SmartDoorLock extends SmartDevice {
@@ -140,6 +168,7 @@ class SmartDoorLock extends SmartDevice {
         System.out.println("PIN: " + newPin);
     }
     */
+
 
     public static void setPin(String pin){
         System.out.println("PIN: " + pin);
