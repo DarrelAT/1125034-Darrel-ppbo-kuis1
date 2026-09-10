@@ -1,0 +1,7 @@
+git init
+git remote add origin https://github.com/DarrelAT/1125034-Darrel-ppbo-kuis1.git
+git branch -M main
+git remote -v
+git add .
+git commit -m "feat: jawaban kuis 1"
+git push -u origin main -f
